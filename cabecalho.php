@@ -10,5 +10,6 @@
     <header>
         <nav>
             <a href="index.php">Inicio</a>
+            <a href="sobre.php">Sobre</a>
         </nav>
     </header>
