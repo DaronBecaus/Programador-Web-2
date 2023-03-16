@@ -18,9 +18,9 @@ $nome_usr = "Daniel";
             <a href="index.php">Inicio</a>
             <a href="sobre.php">Sobre</a>
             <?php if($login): ?>
-            <a href="#">Ola, <?php echo $nome_usr; ?>
-                <span class="material-symbols-outlined">login</span>
-            </a>
+                <a href="#">Ola, <?php echo $nome_usr; ?>
+                    <span class="material-symbols-outlined">login</span>
+                </a>
             <?php else: ?>
                 <a href="#">
                     <span class="material-symbols-outlined">logout</span>
