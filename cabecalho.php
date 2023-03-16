@@ -17,6 +17,7 @@ $nome_usr = "Daniel";
         <nav>
             <a href="index.php">Inicio</a>
             <a href="sobre.php">Sobre</a>
+            <a href="produtos.php">Produtos</a> <!--  -->
             <?php if($login): ?>
                 <a href="#">Ola, <?php echo $nome_usr; ?>
                     <span class="material-symbols-outlined">login</span>

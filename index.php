@@ -70,9 +70,6 @@ echo "<br>";
 $valor = pi();
 echo number_format($valor, 2); //formato um numero
 echo "<br>";
-
-
-
 ?>
 
 <?php
