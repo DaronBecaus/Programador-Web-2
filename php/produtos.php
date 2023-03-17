@@ -1,5 +1,5 @@
 <?php
-require_once "cabecalho.php";
+require_once "php/cabecalho.php";
 
 $lista = array(
     array("img" => "img/curology-DGH1u80sZik-unsplash.jpg", "texto" => "produto1"),
@@ -19,5 +19,5 @@ $lista = array(
 <?php endforeach; ?>
 
 <?php
-require_once "rodape.php"
+require_once "php/rodape.php"
 ?>

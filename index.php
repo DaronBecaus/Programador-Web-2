@@ -1,5 +1,5 @@
 <?php
-require_once "cabecalho.php"
+require_once "php/cabecalho.php"
 ?>
 
 Olá Mundo (Com html) <!-- esse é um html -->
@@ -73,5 +73,5 @@ echo "<br>";
 ?>
 
 <?php
-require_once "rodape.php"
+require_once "php/rodape.php"
 ?>

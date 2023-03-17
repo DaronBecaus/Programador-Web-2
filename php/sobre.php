@@ -1,5 +1,5 @@
 <?php
-require_once "cabecalho.php"
+require_once "php/cabecalho.php"
 ?>
 
 <?php
@@ -12,5 +12,5 @@ if($val){
 
 ?>
 <?php
-require_once "rodape.php"
+require_once "php/rodape.php"
 ?>
