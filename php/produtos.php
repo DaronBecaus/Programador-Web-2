@@ -17,17 +17,17 @@ $lista = array(
 <!-- Dentro do foreach eu passo a variável que representa o array ($lista) e itero cada item me referindo a ele como $item (variável local criada para esse proposito apenas) -->
 <div class="containerCards">
     <?php foreach ($lista as $item) : ?>
-        <!-- Crio uma estrutura de exibição dos dados (nesse caso um card) -->
-        <div class="card">
-            <div class="imgCard">
-                <!-- Dinamicamente eu preencho a cada iteração os valore da tag img o valor do item atual na chave ['img']. pense que esse seria o titulo da coluna da tabela no banco de dados que armazena os dados da imagem do produto da interação atual -->
-                <img src="<?= $item["img"] ?>" alt="" width="300rem">
-            </div>
-            <div class="text">
-                <!-- O mesmo eh feito a cada iteração para alocar dinamicamente o texto do produto -->
-                <?= $item["texto"] ?>
-            </div>
+    <!-- Crio uma estrutura de exibição dos dados (nesse caso um card) -->
+    <div class="card">
+        <div class="imgCard">
+            <!-- Dinamicamente eu preencho a cada iteração os valore da tag img o valor do item atual na chave ['img']. pense que esse seria o titulo da coluna da tabela no banco de dados que armazena os dados da imagem do produto da interação atual -->
+            <img src="<?= $item["img"] ?>" alt="" width="200rem">
         </div>
+        <div class="text">
+            <!-- O mesmo eh feito a cada iteração para alocar dinamicamente o texto do produto -->
+            <?= $item["texto"] ?>
+        </div>
+    </div>
     <?php endforeach; ?>
     <!-- preciso encerrar o foreach -->
 </div>

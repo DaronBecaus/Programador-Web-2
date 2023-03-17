@@ -23,11 +23,11 @@
 }
 
 .imgCard img {
-  width: 10rem;
-  height: 10rem;
+  width: 20rem;
+  height: 20rem;
 }
 
 .texto {
-  text-align: justify;
+  text-align: center;
   padding: 1rem;
 }
