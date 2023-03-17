@@ -1,8 +1,9 @@
 <?php
-require_once $_SERVER["DOCUMENT_ROOT"]."/Programador-Web-2/php/cabecalho.php"; //isto e uma adaptação para pegar em pastas arquivos php
+require_once $_SERVER["DOCUMENT_ROOT"] . "/Programador-Web-2/php/cabecalho.php"; //isto e uma adaptação para pegar em pastas arquivos php
 ?>
 
-Olá Mundo (Com html) <!-- esse é um html -->
+Olá Mundo (Com html)
+<!-- esse é um html -->
 <br>
 <?php
 echo "Olá Mundo (Com PHP)"; //esse vem do php
@@ -73,5 +74,5 @@ echo "<br>";
 ?>
 
 <?php
-require_once $_SERVER["DOCUMENT_ROOT"]."/Programador-Web-2/php/rodape.php";
+require_once $_SERVER["DOCUMENT_ROOT"] . "/Programador-Web-2/php/rodape.php";
 ?>
