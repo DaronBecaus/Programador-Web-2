@@ -16,9 +16,9 @@ class Gato extends Animal
         return $this->teste; // nao posso acessar nem modificar a propriedade teste pq ela eh privada a classe animal
     } */
 
-    /* public function fazBarulho() // eu posso nas classes filhas sobrescrever os métodos da classe pai
+    public function fazBarulho() // eu posso nas classes filhas sobrescrever os métodos da classe pai
     {
         echo "miau miau";
         echo "<br>";
-    } */
+    }
 }

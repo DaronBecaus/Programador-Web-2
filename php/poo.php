@@ -17,14 +17,14 @@ echo "<br>";
 $carro->cor = "preto"; //atribuindo um valor para a propriedade
 echo $carro->cor; //acessando novamente para ver o valor atualizado
 echo "<br>";
-echo "------";
+echo "-----------------------------------";
 echo "<br>";
 $carro2 = new Carro('vermelho', 2); //instanciando um novo objeto carro dessa vez através do construtor
 echo $carro2->cor;
 echo "<br>";
 echo $carro2->qtd_portas;
 echo "<br>";
-echo "------";
+echo "-----------------------------------";
 echo "<br>";
 /* $carro->modelo = 'bmw'; //tentando definir um propriedade privada
 echo $carro->modelo; //tentando acessar um propriedade privada */
@@ -32,7 +32,7 @@ echo $carro->getModelo(); //acessando propriedade via getter
 $carro->setModelo('bmw'); //definindo valor via setter
 echo $carro->getModelo();
 echo "<br>";
-echo "-----------------------";
+echo "-----------------------------------";
 echo "<br>";
 $animal = new Animal(); // posso instanciar objeto da classe pai
 var_dump($animal);
@@ -47,11 +47,11 @@ echo $gato->fazBarulho(); // herdou as propriedades e métodos da classe pai
 $animal->qtd_patas = 4; // qtd_patas é publico então posso fazer essa modificação
 
 /* $animal->alimentação = "herbívoro"; // nao posso fazer o mesmo com os outros limitadores de aceso
-    $animal->teste = "testando"; */
+$animal->teste = "testando"; */
 
 $gato->qtd_patas = 4;
 /* $gato->alimentação = "carnívoro";
-    $gato->teste = "testando"; */
+$gato->teste = "testando"; */
 
 echo $gato->getAlimentacao();
 echo "<br>";

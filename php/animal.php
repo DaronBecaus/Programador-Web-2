@@ -8,7 +8,7 @@ class Animal implements Movimento // criando uma classe que implementa uma inter
 
     public function fazBarulho()
     {
-        echo "barulho generico";
+        echo "barulho genérico";
         echo "<br>";
     }
 
