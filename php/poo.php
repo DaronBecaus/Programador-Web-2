@@ -1,11 +1,11 @@
 <?php
 require_once $_SERVER["DOCUMENT_ROOT"] . "/Programador-Web-2/php/cabecalho.php";
 require_once $_SERVER["DOCUMENT_ROOT"] . "/Programador-Web-2/php/carro.php";
-require_once $_SERVER["DOCUMENT_ROOT"] . "/Programador-Web-2/php/animal.php";
 require_once $_SERVER["DOCUMENT_ROOT"] . "/Programador-Web-2/php/gato.php";
 require_once $_SERVER["DOCUMENT_ROOT"] . "/Programador-Web-2/php/laranja.php";
 require_once $_SERVER["DOCUMENT_ROOT"] . "/Programador-Web-2/php/movimento.php";
 require_once $_SERVER["DOCUMENT_ROOT"] . "/Programador-Web-2/php/planta.php";
+require_once $_SERVER["DOCUMENT_ROOT"] . "/Programador-Web-2/php/cachorro.php";
 
 $carro = new Carro(); //instanciando um objeto dessa classe
 echo $carro->cor; //acessando uma propriedade do objeto
@@ -84,6 +84,11 @@ echo "<br>";
 
 Animal::brincar(); // acessando um método estático nome da classe::nome do método
 $animal->brincar(); // o método pode ser acessado pelo objeto também
+echo "<br>";
+echo "-----------------------------------";
+echo "<br>";
+$cachorro = new Cachorro();
+echo $cachorro->fazBarulho();
 ?>
 
 <?php
